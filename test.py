@@ -1,4 +1,4 @@
-divmod(2, 3)
+'''divmod(2, 3)
 print(divmod(2, 3))
 print(5.)
 print(5.0)
@@ -14,7 +14,7 @@ print(a*b)  # 5 - 3j + 20j +12 = 17 +17j
 print(b.real)   #실수부  float
 print(b.imag)   #허수부  float
 # python idle 종료 하고싶으면 ctrl d
-'''import calendar
+import calendar
 calendar.prmonth(2020,7)
 import os
 obj = input("inputgo : ")
@@ -42,7 +42,7 @@ for k in range(20):
 '''for k in range(3):
     forward(100)
     left(120)       
-    # 정삼각형'''
+    # 정삼각형
 str(12345)      # string형으로 형변환
 str1 = 'abc'
 print(str1)
@@ -58,4 +58,16 @@ print(a)
 a += 1
 print(a)
 #a++    # 얘는 안됨
-print(a)
+print(a)'''
+a = 10
+'''
+for k in range(3):
+    a += 10
+    print(a)
+'''
+a = ["1", "2", "-2", "0"]
+#for k in range(2):       같은 의미로 코딩 하면 
+for k in range(0, len(a)):
+    #print(list[k*2]) 
+    if int(a[k]) < 0 :    
+        print(a[k])
